@@ -7,7 +7,7 @@ const Header = () => {
             <div className="container">
                 <nav className="headerNav">
                     <div className="headerNav__left">
-                        <svg className="headerNav__left_logo" width="150" viewBox="0 0 184 54" fill="none"
+                        <svg className="headerNav__left_logo" width="120" viewBox="0 0 184 54" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_13_6)">
                                 <path

@@ -1,5 +1,9 @@
 import React from 'react';
 import "./About.css";
+import firebase from "./images/firebase.png"
+import webapp from "./images/webapp.png"
+import react from "./images/react.png"
+import js from "./images/js.png"
 
 const About = () => {
     return (
@@ -20,15 +24,19 @@ const About = () => {
                         <div className="aboutRow__right_circle">
                             <span className="aboutRow__right_circle_react">
                                 REACT
+                                <img className="aboutRow__right_circle_firebase-logo" src={react} alt="firebase icon"/>
                             </span>
                             <span className="aboutRow__right_circle_firebase">
                                 FIREBASE
+                                <img className="aboutRow__right_circle_firebase-logo" src={firebase} alt="firebase icon"/>
                             </span>
                             <span className="aboutRow__right_circle_js">
                                 JS
+                                <img className="aboutRow__right_circle_firebase-logo" src={js} alt="firebase icon"/>
                             </span>
                             <span className="aboutRow__right_circle_webapp">
                                 WEB-Application
+                                <img className="aboutRow__right_circle_firebase-logo" src={webapp} alt="firebase icon"/>
                             </span>
                         </div>
                     </div>

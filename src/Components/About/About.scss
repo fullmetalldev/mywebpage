@@ -1,6 +1,6 @@
 .About {
   background-color: #2C2C2C;
-  padding: 100px 0;
+  padding: 150px 0;
 }
 
 
@@ -59,41 +59,62 @@
       height: 475px;
       position: relative;
       border-radius: 50%;
-      border: 67px solid #00C4F0;
+      border: 13px solid #00C4F0;
       box-sizing: border-box;
       filter: drop-shadow(0px 0px 152px rgba(0, 196, 240, 0.42));
+      transition: 0.8s;
 
       span {
         font-weight: 700;
-        //background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 24px;
         color: #ffffff;
         position: absolute;
+        transition: 0.8s;
+        cursor: pointer;
+
+        .aboutRow__right_circle_firebase-logo {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          width: 80px;
+          z-index: -1;
+        }
+      }
+      span:hover{
+        transition: 2s;
+        transform: rotate(360deg);
       }
 
       &_react {
-        left: calc(-67px + -70px);
+        left: calc(-13px + -70px);
         top: 50%;
-        transform: translateY(-50%);
+
       }
 
       &_firebase {
-        left: -80px;
+        left: -13px;
         top: 0;
+        position: relative;
+
       }
 
       &_js {
-        left: -40px;
+        left: -13px;
         top: 80%;
+        img{
+          border-radius: 50%;
+        }
       }
 
       &_webapp {
         left: 50%;
         top: 50%;
-        transform: translate(-50%, -50%);
+        right: 50%;
+        bottom: 50%;
         white-space: nowrap;
       }
 

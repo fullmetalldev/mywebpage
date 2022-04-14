@@ -1,0 +1,12 @@
+.footer {
+  background: #2C2C2C;
+  padding: 10px;
+}
+
+.footerRow {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 15px;
+}
+
+/*# sourceMappingURL=footer.css.map */

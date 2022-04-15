@@ -4,7 +4,7 @@ import "./aboutAdaptive.css"
 
 const About = () => {
     return (
-        <div className="About">
+        <main className="About">
             <div className="container">
                 <div className="aboutRow">
 
@@ -23,7 +23,7 @@ const About = () => {
 
                 </div>
             </div>
-        </div>
+        </main>
     );
 };
 

@@ -1,0 +1,23 @@
+@media (max-width: 1440px) {
+  .About {
+    padding: 80px 10px;
+  }
+  .aboutRow {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1105px) {
+  .aboutRow__right {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutRow__right_circle {
+    border: 27px solid #00C4F0;
+    width: 300px;
+    height: 300px;
+  }
+}
